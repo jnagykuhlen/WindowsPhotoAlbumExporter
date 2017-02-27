@@ -29,7 +29,7 @@ namespace WindowsPhotoAlbumExporter
                     exportDirectory = args[0];
 
                 if (args.Length > 1)
-                    exportDirectory = args[1];
+                    albumName = args[1];
 
                 if (args.Length > 2)
                     databasePath = args[2];
